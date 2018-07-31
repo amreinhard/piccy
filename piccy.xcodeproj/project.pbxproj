@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74B45277388DDA5470000C40 /* Pods_piccy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE47D42FFF86A4015C1B4898 /* Pods_piccy.framework */; };
 		BF5450E720F85755004B7340 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5450E620F85755004B7340 /* AppDelegate.swift */; };
 		BF5450E920F85755004B7340 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5450E820F85755004B7340 /* MasterViewController.swift */; };
 		BF5450EB20F85755004B7340 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5450EA20F85755004B7340 /* DetailViewController.swift */; };
 		BF5450EE20F85755004B7340 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5450EC20F85755004B7340 /* Main.storyboard */; };
 		BF5450F020F85756004B7340 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF5450EF20F85756004B7340 /* Assets.xcassets */; };
 		BF5450F320F85756004B7340 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF5450F120F85756004B7340 /* LaunchScreen.storyboard */; };
+		BF5450FB20F861FF004B7340 /* imgurAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5450FA20F861FF004B7340 /* imgurAPI.swift */; };
+		BF5450FD20F864D0004B7340 /* imgurImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5450FC20F864D0004B7340 /* imgurImageResponse.swift */; };
+		BF8EF61520FEEF5D00298318 /* NewImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8EF61420FEEF5D00298318 /* NewImageViewController.swift */; };
+		BFD79DA8210574E500F87D14 /* MultipartFormData+Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79D9C210574E500F87D14 /* MultipartFormData+Builder.swift */; };
+		BFD79DA9210574E500F87D14 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79D9D210574E500F87D14 /* MultipartFormData.swift */; };
+		BFD79DAA210574E500F87D14 /* Dash.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79D9E210574E500F87D14 /* Dash.swift */; };
+		BFD79DAB210574E500F87D14 /* MIMEType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79D9F210574E500F87D14 /* MIMEType.swift */; };
+		BFD79DAC210574E500F87D14 /* MultipartFormData+Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DA0210574E500F87D14 /* MultipartFormData+Part.swift */; };
+		BFD79DAD210574E500F87D14 /* CRLF.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DA1210574E500F87D14 /* CRLF.swift */; };
+		BFD79DAE210574E500F87D14 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DA2210574E500F87D14 /* Name.swift */; };
+		BFD79DAF210574E500F87D14 /* BoundaryGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DA3210574E500F87D14 /* BoundaryGenerator.swift */; };
+		BFD79DB0210574E500F87D14 /* ContentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DA4210574E500F87D14 /* ContentType.swift */; };
+		BFD79DB1210574E500F87D14 /* Filename.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DA5210574E500F87D14 /* Filename.swift */; };
+		BFD79DB2210574E500F87D14 /* ContentDisposition.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DA6210574E500F87D14 /* ContentDisposition.swift */; };
+		BFD79DB3210574E500F87D14 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DA7210574E500F87D14 /* ValidationResult.swift */; };
+		BFD79DB5210E935D00F87D14 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DB4210E935D00F87D14 /* ListTableViewCell.swift */; };
+		BFD79DB721101F7700F87D14 /* imgurAPI+ID.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD79DB621101F7700F87D14 /* imgurAPI+ID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07371BE472A432DC73E7AB85 /* Pods-piccy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piccy.release.xcconfig"; path = "Pods/Target Support Files/Pods-piccy/Pods-piccy.release.xcconfig"; sourceTree = "<group>"; };
+		963FAE2CAB1DF8B20D9FD040 /* Pods-piccy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-piccy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-piccy/Pods-piccy.debug.xcconfig"; sourceTree = "<group>"; };
+		BE47D42FFF86A4015C1B4898 /* Pods_piccy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_piccy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5450E320F85755004B7340 /* piccy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piccy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF5450E620F85755004B7340 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF5450E820F85755004B7340 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +45,23 @@
 		BF5450EF20F85756004B7340 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF5450F220F85756004B7340 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF5450F420F85756004B7340 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF5450FA20F861FF004B7340 /* imgurAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgurAPI.swift; sourceTree = "<group>"; };
+		BF5450FC20F864D0004B7340 /* imgurImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imgurImageResponse.swift; sourceTree = "<group>"; };
+		BF8EF61420FEEF5D00298318 /* NewImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewImageViewController.swift; sourceTree = "<group>"; };
+		BFD79D9C210574E500F87D14 /* MultipartFormData+Builder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MultipartFormData+Builder.swift"; sourceTree = "<group>"; };
+		BFD79D9D210574E500F87D14 /* MultipartFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipartFormData.swift; sourceTree = "<group>"; };
+		BFD79D9E210574E500F87D14 /* Dash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dash.swift; sourceTree = "<group>"; };
+		BFD79D9F210574E500F87D14 /* MIMEType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIMEType.swift; sourceTree = "<group>"; };
+		BFD79DA0210574E500F87D14 /* MultipartFormData+Part.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MultipartFormData+Part.swift"; sourceTree = "<group>"; };
+		BFD79DA1210574E500F87D14 /* CRLF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRLF.swift; sourceTree = "<group>"; };
+		BFD79DA2210574E500F87D14 /* Name.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
+		BFD79DA3210574E500F87D14 /* BoundaryGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoundaryGenerator.swift; sourceTree = "<group>"; };
+		BFD79DA4210574E500F87D14 /* ContentType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentType.swift; sourceTree = "<group>"; };
+		BFD79DA5210574E500F87D14 /* Filename.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filename.swift; sourceTree = "<group>"; };
+		BFD79DA6210574E500F87D14 /* ContentDisposition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentDisposition.swift; sourceTree = "<group>"; };
+		BFD79DA7210574E500F87D14 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationResult.swift; sourceTree = "<group>"; };
+		BFD79DB4210E935D00F87D14 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		BFD79DB621101F7700F87D14 /* imgurAPI+ID.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "imgurAPI+ID.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74B45277388DDA5470000C40 /* Pods_piccy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E74FD6BB9F600A2A98478A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				963FAE2CAB1DF8B20D9FD040 /* Pods-piccy.debug.xcconfig */,
+				07371BE472A432DC73E7AB85 /* Pods-piccy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BF5450DA20F85755004B7340 = {
 			isa = PBXGroup;
 			children = (
 				BF5450E520F85755004B7340 /* piccy */,
 				BF5450E420F85755004B7340 /* Products */,
+				0E74FD6BB9F600A2A98478A8 /* Pods */,
+				F94511FC5A536FB5D2F796E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +110,45 @@
 				BF5450E820F85755004B7340 /* MasterViewController.swift */,
 				BF5450EA20F85755004B7340 /* DetailViewController.swift */,
 				BF5450EC20F85755004B7340 /* Main.storyboard */,
+				BFD79DB4210E935D00F87D14 /* ListTableViewCell.swift */,
+				BF8EF61420FEEF5D00298318 /* NewImageViewController.swift */,
+				BF5450FA20F861FF004B7340 /* imgurAPI.swift */,
+				BFD79DB621101F7700F87D14 /* imgurAPI+ID.swift */,
+				BF5450FC20F864D0004B7340 /* imgurImageResponse.swift */,
+				BFD79D9B210574E500F87D14 /* MultipartFormDataKit */,
 				BF5450EF20F85756004B7340 /* Assets.xcassets */,
 				BF5450F120F85756004B7340 /* LaunchScreen.storyboard */,
 				BF5450F420F85756004B7340 /* Info.plist */,
 			);
 			path = piccy;
+			sourceTree = "<group>";
+		};
+		BFD79D9B210574E500F87D14 /* MultipartFormDataKit */ = {
+			isa = PBXGroup;
+			children = (
+				BFD79D9C210574E500F87D14 /* MultipartFormData+Builder.swift */,
+				BFD79D9D210574E500F87D14 /* MultipartFormData.swift */,
+				BFD79D9E210574E500F87D14 /* Dash.swift */,
+				BFD79D9F210574E500F87D14 /* MIMEType.swift */,
+				BFD79DA0210574E500F87D14 /* MultipartFormData+Part.swift */,
+				BFD79DA1210574E500F87D14 /* CRLF.swift */,
+				BFD79DA2210574E500F87D14 /* Name.swift */,
+				BFD79DA3210574E500F87D14 /* BoundaryGenerator.swift */,
+				BFD79DA4210574E500F87D14 /* ContentType.swift */,
+				BFD79DA5210574E500F87D14 /* Filename.swift */,
+				BFD79DA6210574E500F87D14 /* ContentDisposition.swift */,
+				BFD79DA7210574E500F87D14 /* ValidationResult.swift */,
+			);
+			name = MultipartFormDataKit;
+			path = "../../../../Downloads/MultipartFormDataKit-master/Sources/MultipartFormDataKit";
+			sourceTree = "<group>";
+		};
+		F94511FC5A536FB5D2F796E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE47D42FFF86A4015C1B4898 /* Pods_piccy.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +158,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF5450F720F85756004B7340 /* Build configuration list for PBXNativeTarget "piccy" */;
 			buildPhases = (
+				F44F2B2ECBEF05461AA231EF /* [CP] Check Pods Manifest.lock */,
 				BF5450DF20F85755004B7340 /* Sources */,
 				BF5450E020F85755004B7340 /* Frameworks */,
 				BF5450E120F85755004B7340 /* Resources */,
+				B1B7EE5C597EA5AABEC647CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +219,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B1B7EE5C597EA5AABEC647CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-piccy/Pods-piccy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nuke/Nuke.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nuke.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-piccy/Pods-piccy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F44F2B2ECBEF05461AA231EF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-piccy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF5450DF20F85755004B7340 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD79DAD210574E500F87D14 /* CRLF.swift in Sources */,
 				BF5450EB20F85755004B7340 /* DetailViewController.swift in Sources */,
+				BFD79DAB210574E500F87D14 /* MIMEType.swift in Sources */,
 				BF5450E920F85755004B7340 /* MasterViewController.swift in Sources */,
+				BFD79DB2210574E500F87D14 /* ContentDisposition.swift in Sources */,
+				BFD79DA9210574E500F87D14 /* MultipartFormData.swift in Sources */,
+				BFD79DB721101F7700F87D14 /* imgurAPI+ID.swift in Sources */,
+				BFD79DB0210574E500F87D14 /* ContentType.swift in Sources */,
+				BFD79DAF210574E500F87D14 /* BoundaryGenerator.swift in Sources */,
+				BFD79DB5210E935D00F87D14 /* ListTableViewCell.swift in Sources */,
+				BF5450FD20F864D0004B7340 /* imgurImageResponse.swift in Sources */,
 				BF5450E720F85755004B7340 /* AppDelegate.swift in Sources */,
+				BF5450FB20F861FF004B7340 /* imgurAPI.swift in Sources */,
+				BFD79DB3210574E500F87D14 /* ValidationResult.swift in Sources */,
+				BFD79DB1210574E500F87D14 /* Filename.swift in Sources */,
+				BFD79DA8210574E500F87D14 /* MultipartFormData+Builder.swift in Sources */,
+				BFD79DAA210574E500F87D14 /* Dash.swift in Sources */,
+				BF8EF61520FEEF5D00298318 /* NewImageViewController.swift in Sources */,
+				BFD79DAC210574E500F87D14 /* MultipartFormData+Part.swift in Sources */,
+				BFD79DAE210574E500F87D14 /* Name.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +424,7 @@
 		};
 		BF5450F820F85756004B7340 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 963FAE2CAB1DF8B20D9FD040 /* Pods-piccy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +443,7 @@
 		};
 		BF5450F920F85756004B7340 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07371BE472A432DC73E7AB85 /* Pods-piccy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

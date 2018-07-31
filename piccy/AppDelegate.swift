@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDelegate {
 
     var window: UIWindow?
+    var api = imgurAPI()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
@@ -20,6 +21,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
         let navigationController = splitViewController.viewControllers[splitViewController.viewControllers.count-1] as! UINavigationController
         navigationController.topViewController!.navigationItem.leftBarButtonItem = splitViewController.displayModeButtonItem
         splitViewController.delegate = self
+//        var image = ImgurImageUpload(image: #imageLiteral(resourceName: "Minx"), data: UIImageJPEGRepresentation(#imageLiteral(resourceName: "Minx"), 20)!, name: "Cat", title: "Cat", description: "Cat")
+//        api.upload(image: image) { (response) in
+//            print(response)
+//        }
         return true
     }
 
